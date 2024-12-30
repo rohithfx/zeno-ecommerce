@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZENO - Premium E-Commerce</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: #111;
+            border-bottom: 4px solid #D2B48C; /* Heavy Teak Accent */
+        }
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #D2B48C;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1rem;
+        }
+        nav a:hover {
+            color: #D2B48C;
+        }
+        .hero {
+            text-align: center;
+            padding: 6rem 1rem;
+            background-image: linear-gradient(to bottom, #111, #000);
+            color: #D2B48C;
+        }
+        .hero h1 {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.5rem;
+            color: #aaa;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 3rem;
+            background-color: #000;
+        }
+        .product {
+            background-color: #222;
+            border: 2px solid #333;
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center;
+            color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product h2 {
+            margin: 1rem 0 0.5rem;
+            color: #D2B48C;
+        }
+        .product p {
+            color: #ccc;
+        }
+        .product button {
+            margin: 1rem;
+            padding: 0.5rem 1.5rem;
+            background-color: #D2B48C;
+            color: #000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        .product button:hover {
+            background-color: #c19a6b;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #111;
+            color: #aaa;
+            font-size: 0.9rem;
+            border-top: 4px solid #D2B48C; /* Heavy Teak Accent */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">ZENO</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Welcome to ZENO</h1>
+        <p>Your destination for premium hoodies and more</p>
+    </div>
+
+    <section class="products">
+        <div class="product">
+            <img src="hoodie1.jpg" alt="Premium Hoodie 1">
+            <h2>Classic Hoodie</h2>
+            <p>$49.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="hoodie2.jpg" alt="Premium Hoodie 2">
+            <h2>Modern Fit Hoodie</h2>
+            <p>$59.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="hoodie3.jpg" alt="Premium Hoodie 3">
+            <h2>Oversized Hoodie</h2>
+            <p>$54.99</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 ZENO. Designed for style and comfort.
+    </footer>
+</body>
+</html>
